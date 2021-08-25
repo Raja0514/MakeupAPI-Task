@@ -25,7 +25,8 @@ function makeupItem(data) {
     <p><span class="text1"> Name of the product:</span>${data.name}</p>
     <p><span class="text1">price:</span>${data.price}</p>
     <img class="image" src=${data.image_link}/> 
-    <p><span class="text1">product link:</span>${data.product_link}</p>
+     <p><span class="text1">product_link:</span>
+    <a href="${data.product_link}"target="_blank">${data.product_link}</a>
     <p><span class="text1">description:</span>${data.description}</p>
 
     </div>
